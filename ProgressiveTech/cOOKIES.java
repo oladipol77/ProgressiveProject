@@ -17,8 +17,7 @@ public class cOOKIES {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Progressive Tech\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Progressive Tech\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().deleteCookieNamed("abcd");
@@ -32,6 +31,8 @@ public class cOOKIES {
 		 * File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		 * FileUtils.copyFile(src,new File("C://screenshot.png"));
 		 */
+		
+		
 
 		// KILLING PROCESS OR COOKIES
 		// =============================
